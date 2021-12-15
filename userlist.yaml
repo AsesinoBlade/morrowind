@@ -1,0 +1,16 @@
+groups:
+  - name: 'default'
+plugins:
+  - name: 'dh_homes.esp'
+    after:
+      - 'BCoM_for_Wares.ESP'
+  - name: 'OpenMW - AshlanderTent.esp'
+    after:
+      - 'On the Move.esp'
+  - name: 'OpenMW - RoverTent.esp'
+    after:
+      - 'Sea Rover Tent adjusted.esp'
+  - name: 'tweaks.ESP'
+    after:
+      - 'ncgdMW Patch.esp'
+      - 'EnchantingEnchanting.ESP'
